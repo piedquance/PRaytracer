@@ -4,9 +4,9 @@
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
-namespace UnitTest1
+namespace Testing
 {
-	TEST_CLASS(UnitTest1)
+	TEST_CLASS(Testing)
 	{
 	public:
 		
@@ -19,6 +19,21 @@ namespace UnitTest1
 			Assert::AreEqual(a.y, -4.2f);
 			Assert::AreEqual(a.z, 3.1f);
 			Assert::AreEqual(a.w, 1.0f);
+		}
+	};
+
+	TEST_CLASS(Testing2)
+	{
+	public:
+
+		TEST_METHOD(T21)
+		{
+			Assert::AreEqual(1.0f, 1.0f);
+		}
+
+		TEST_METHOD(T22)
+		{
+			Assert::AreEqual(1.0f, 1.0f);
 		}
 	};
 }
