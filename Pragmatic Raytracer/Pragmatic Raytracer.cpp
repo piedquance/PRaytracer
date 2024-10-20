@@ -28,6 +28,16 @@ public:
     {
         return tuple(-this->x, -this->y, -this->z, -this->w);
     }
+    tuple operator*(const float& s) const
+    {
+        tuple result = tuple(this->x * s, this->y * s, this->z * s, this->w * s);
+        return result;
+    }
+    tuple operator/(const float& s) const
+    {
+        tuple result = tuple(this->x / s, this->y / s, this->z / s, this->w / s);
+        return result;
+    }
     //Find a nicer way to do this
     bool operator==(const tuple& other) const
     {
@@ -55,6 +65,12 @@ class vector : public tuple {
 public:
     vector(float x, float y, float z) : tuple(x, y, z, 0) {}
 };
+
+
+float magnitude(vector v)
+{
+    return sqrt(pow(v.x,2) + pow(v.y,2) + pow(v.z,2) + pow(v.w,2));
+}
 
 
 int main()

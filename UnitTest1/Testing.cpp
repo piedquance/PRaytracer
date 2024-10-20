@@ -77,6 +77,54 @@ namespace Testing
 
 			Assert::IsTrue(-a == tuple(-1, 2, -3, 4));
 		}
+		TEST_METHOD(tuples10)
+		{
+			//Scenario: Multiplying a tuple by a scalar
+			tuple a(1, -2, 3, -4);
+			Assert::IsTrue(a * 3.5 == tuple(03.5, -7, 10.5, -14));
+		}
+		TEST_METHOD(tuples11)
+		{
+			//Scenario: Multiplying a tuple by a fraction
+			tuple a(1, -2, 3, -4);
+			Assert::IsTrue(a * 0.5 == tuple(0.5, -1, 1.5, -2));
+		}
+		TEST_METHOD(tuples12)
+		{
+			//Scenario: Dividing a tuple by a scalar
+			tuple a(1, -2, 3, -4);
+			Assert::IsTrue(a / 2 == tuple(0.5, -1, 1.5, -2));
+		}
+		TEST_METHOD(tuples13)
+		{
+			//Scenario: Computing the magnitude of vector(1, 0, 0)
+			vector v(1, 0, 0);
+			Assert::IsTrue(magnitude(v) == 1);
+		}
+		TEST_METHOD(tuples14)
+		{
+			//Scenario: Computing the magnitude of vector(0, 1, 0)
+			vector v(0, 1, 0);
+			Assert::IsTrue(magnitude(v) == 1);
+		}
+		TEST_METHOD(tuples15)
+		{
+			//Scenario: Computing the magnitude of vector(0, 0, 1)
+			vector v(0, 0, 1);
+			Assert::IsTrue(magnitude(v) == 1);
+		}
+		TEST_METHOD(tuples16)
+		{
+			//Scenario: Computing the magnitude of vector(1, 2, 3)
+			vector v(1, 2, 3);
+			Assert::IsTrue(equal(magnitude(v), sqrt(14)));
+		}
+		TEST_METHOD(tuples17)
+		{
+			//Scenario: Computing the magnitude of vector(-1, -2, -3)
+			vector v(-1, -2, -3);
+			Assert::IsTrue(equal(magnitude(v), sqrt(14)));
+		}
 	};
 
 	TEST_CLASS(Testing2)
