@@ -1,4 +1,6 @@
-#include <iostream>
+#include "Header.h"
+
+//#include "../code/features/tuples.features"
 
 const float EPSILON = 0.00001;
 
@@ -22,6 +24,7 @@ public:
         tuple result = tuple(this->x - other.x, this->y - other.y, this->z - other.z, this->w - other.w);
         return result;
     }
+    //Find a nicer way to do this
     bool operator==(const tuple& other) const
     {
         if (equal(this->x, other.x) && equal(this->y, other.y) && equal(this->z, other.z) && equal(this->w, other.w)) return true;
@@ -53,6 +56,13 @@ public:
 int main()
 {
     std::cout << "Hello World!\n";
+    
+    featurePrinter();
+   
+    getchar();
+    return 0;
+
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
