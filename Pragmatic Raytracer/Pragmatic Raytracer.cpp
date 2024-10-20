@@ -24,6 +24,10 @@ public:
         tuple result = tuple(this->x - other.x, this->y - other.y, this->z - other.z, this->w - other.w);
         return result;
     }
+    tuple operator-() const
+    {
+        return tuple(-this->x, -this->y, -this->z, -this->w);
+    }
     //Find a nicer way to do this
     bool operator==(const tuple& other) const
     {

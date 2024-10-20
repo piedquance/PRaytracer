@@ -44,6 +44,39 @@ namespace Testing
 			vector v(4, -4, 3);
 			Assert::AreEqual(v == tuple(4, -4, 3, 0), true);
 		}
+		TEST_METHOD(tuples5) {
+			//Scenario: Adding two tuples
+			tuple a1(3, -2, 5, 1);
+			tuple a2(-2, 3, 1, 0);
+			Assert::IsTrue(a1 + a2 == tuple(1, 1, 6, 1));
+		}
+		TEST_METHOD(tuples6) {
+			//Scenario: Substracting two points
+			point p1(3, 2, 1);
+			point p2(5, 6, 7);
+
+			Assert::IsTrue(p1 - p2 == vector(-2, -4, -6));
+		}
+		TEST_METHOD(tuples7) {
+			//Scenario: Subtracting two vectors
+			vector v1(3, 2, 1);
+			vector v2(5, 6, 7);
+
+			Assert::IsTrue(v1 - v2 == vector(-2, -4, -6));
+		}
+		TEST_METHOD(tuples8) {
+			//Scenario: Substracting a vector from the zero vector
+			vector zero(0, 0, 0);
+			vector v(1, -2, 3);
+
+			Assert::IsTrue(zero - v == vector(-1, 2, -3));
+		}
+		TEST_METHOD(tuples9) {
+			//Scenario: Negating a tuple
+			tuple a(1, -2, 3, -4);
+
+			Assert::IsTrue(-a == tuple(-1, 2, -3, 4));
+		}
 	};
 
 	TEST_CLASS(Testing2)
