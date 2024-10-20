@@ -57,7 +57,7 @@ int main()
 {
     std::cout << "Hello World!\n";
     
-    featurePrinter();
+    //featurePrinter();
    
     getchar();
     return 0;

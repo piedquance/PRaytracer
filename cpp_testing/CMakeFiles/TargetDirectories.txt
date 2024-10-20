@@ -1,0 +1,2 @@
+C:/Users/Mykyta/source/repos/Pragmatic Raytracer/cpp_testing/CMakeFiles/ALL_BUILD.dir
+C:/Users/Mykyta/source/repos/Pragmatic Raytracer/cpp_testing/CMakeFiles/ZERO_CHECK.dir

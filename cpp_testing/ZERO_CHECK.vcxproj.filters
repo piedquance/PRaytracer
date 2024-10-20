@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Mykyta\source\repos\Pragmatic Raytracer\cpp_testing\CMakeFiles\cc1a6933b343cca07f9ba4d9a341a55c\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{215EB3E1-903C-3BBA-9322-E35CB3BC24DE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
