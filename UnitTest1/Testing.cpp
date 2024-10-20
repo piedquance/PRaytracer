@@ -6,7 +6,7 @@ using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace Testing
 {
-	TEST_CLASS(Testing)
+	TEST_CLASS(tuples)
 	{
 	public:
 		
@@ -19,6 +19,8 @@ namespace Testing
 			Assert::AreEqual(a.y, -4.2f);
 			Assert::AreEqual(a.z, 3.1f);
 			Assert::AreEqual(a.w, 1.0f);
+
+			tuple b(4.3, -4.2, 3.1, 0.0);
 		}
 	};
 

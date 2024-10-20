@@ -4,15 +4,38 @@ class tuple {
 public:
     float x, y, z, w;
     tuple(float, float, float, float);
+
+    tuple operator+(const tuple& other) const
+    {
+        tuple result = tuple(this->x + other.x, this->y + other.y, this->z + other.z, this->w + other.w);
+        return result;
+    }
+    tuple operator-(const tuple& other) const
+    {
+        tuple result = tuple(this->x - other.x, this->y - other.y, this->z - other.z, this->w - other.w);
+        return result;
+    }
 };
 
-tuple::tuple(float x, float y, float z, float w) {
+tuple::tuple(float x, float y, float z, float w) 
+{
     this->x = x;
     this->y = y;
     this->z = z;
     this->w = w;
 }
 
+class point : public tuple 
+{
+public:
+    point(float x, float y, float z) : tuple(x, y, z, 0) {}
+};
+
+
+class vector : public tuple {
+public:
+    vector(float x, float y, float z) : tuple(x, y, z, 1) {}
+};f
 
 
 
