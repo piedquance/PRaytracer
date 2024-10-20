@@ -1,5 +1,12 @@
 #include <iostream>
 
+const float EPSILON = 0.00001;
+
+bool equal(float a, float b) {
+    if (abs(a - b) < EPSILON) return true;
+    else return false;
+}
+
 class tuple {
 public:
     float x, y, z, w;
@@ -15,6 +22,11 @@ public:
         tuple result = tuple(this->x - other.x, this->y - other.y, this->z - other.z, this->w - other.w);
         return result;
     }
+    bool operator==(const tuple& other) const
+    {
+        if (equal(this->x, other.x) && equal(this->y, other.y) && equal(this->z, other.z) && equal(this->w, other.w)) return true;
+        else return false;
+    }
 };
 
 tuple::tuple(float x, float y, float z, float w) 
@@ -28,13 +40,13 @@ tuple::tuple(float x, float y, float z, float w)
 class point : public tuple 
 {
 public:
-    point(float x, float y, float z) : tuple(x, y, z, 0) {}
+    point(float x, float y, float z) : tuple(x, y, z, 1) {}
 };
 
 
 class vector : public tuple {
 public:
-    vector(float x, float y, float z) : tuple(x, y, z, 1) {}
+    vector(float x, float y, float z) : tuple(x, y, z, 0) {}
 };
 
 
