@@ -35,8 +35,7 @@ public:
 class vector : public tuple {
 public:
     vector(float x, float y, float z) : tuple(x, y, z, 1) {}
-};f
-
+};
 
 
 int main()
