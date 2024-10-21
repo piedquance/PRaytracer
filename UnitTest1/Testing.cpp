@@ -125,6 +125,43 @@ namespace Testing
 			vector v(-1, -2, -3);
 			Assert::IsTrue(equal(magnitude(v), sqrt(14)));
 		}
+		TEST_METHOD(tuples18)
+		{
+			//Scenario: Normalizing vector(4, 0, 0) gives (1, 0, 0)
+			vector v(4, 0, 0);
+			Assert::IsTrue(normalize(v) == vector(1, 0, 0));
+		}
+		TEST_METHOD(tuples19)
+		{
+			//Scenario: Normalizing vector(1, 2, 3)
+			vector v(1, 2, 3);
+			Assert::IsTrue(normalize(v) == vector(0.26726, 0.53452, 0.80178));
+		}
+		TEST_METHOD(tuples20)
+		{
+			//Scenario: The magnitude of a normalized vector
+			vector v(1, 2, 3);
+			vector norm = normalize(v);
+
+			Assert::IsTrue(magnitude(norm) == 1);
+		}
+		TEST_METHOD(tuples21)
+		{
+			//Scenario: The dot product of two tuples
+			vector a(1, 2, 3);
+			vector b(2, 3, 4);
+
+			Assert::IsTrue(dot(a, b) == 20);
+		}
+		TEST_METHOD(tuples22)
+		{
+			//Scenario: The cross peoduct of who vectors
+			vector a(1, 2, 3);
+			vector b(2, 3, 4);
+
+			Assert::IsTrue(cross(a, b) == vector(-1, 2, -1));
+			Assert::IsTrue(cross(b, a) == vector(1, -2, 1));
+		}
 	};
 
 	TEST_CLASS(Testing2)

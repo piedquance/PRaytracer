@@ -44,6 +44,9 @@ public:
         if (equal(this->x, other.x) && equal(this->y, other.y) && equal(this->z, other.z) && equal(this->w, other.w)) return true;
         else return false;
     }
+    //operator vector() const {
+    //    return vector(this->x, this->y, this->z);
+    //}
 };
 
 tuple::tuple(float x, float y, float z, float w) 
@@ -70,6 +73,28 @@ public:
 float magnitude(vector v)
 {
     return sqrt(pow(v.x,2) + pow(v.y,2) + pow(v.z,2) + pow(v.w,2));
+}
+
+tuple normalize(vector v) {
+    float m = magnitude(v);
+    return tuple(v.x / m, v.y / m, v.z / m, v.w / m);
+}
+
+float dot(vector a, vector b)
+{
+    return a.x * b.x +
+        a.y * b.y +
+        a.z * b.z +
+        a.w * b.w;
+}
+
+vector cross(vector a, vector b)
+{
+    return vector(
+        a.y * b.z - a.z * b.y,
+        a.z * b.x - a.x * b.z,
+        a.x * b.y - a.y * b.x
+    );
 }
 
 
