@@ -99,7 +99,7 @@ Point p;
 
     @Then("p - v = point\\({int}, {int}, {int})")
     public void p_sub_v_point(Integer int1, Integer int2, Integer int3) {
-        assertEquals(p1.sub(v), new Point(int1, int2, int3));
+        assertEquals(p.sub(v), new Point(int1, int2, int3));
     }
     Vector v1;
     Vector v2;
@@ -142,39 +142,42 @@ Point p;
         assertEquals(a.div(double1), new Tuple(double2, double3, double4, double5));
     }
 
+    @Then("magnitude\\(v) = √{int}")
+    public void magnitude_sqrt_v(Integer int1) {
+        assertEquals(v.magnitude(), Math.sqrt(int1));
+    }
+
     @Then("magnitude\\(v) = {int}")
     public void magnitude_v(Integer int1) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        assertEquals((int)v.magnitude(), int1);
     }
+
 
     @Then("normalize\\(v) = vector\\({int}, {int}, {int})")
     public void normalize_v_vector(Integer int1, Integer int2, Integer int3) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        assertEquals(v.normalize(), new Vector(int1, int2, int3));
     }
 
     @Then("normalize\\(v) = approximately vector\\({double}, {double}, {double})")
     public void normalize_v_approximately_vector(Double double1, Double double2, Double double3) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        assertEquals(v.normalize(), new Vector(double1, double2, double3));
     }
 
+    Vector norm;
     @When("norm ← normalize\\(v)")
     public void norm_normalize_v() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        norm = new Vector(v.normalize());
     }
     @Then("magnitude\\(norm) = {int}")
     public void magnitude_norm(Integer int1) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        assertEquals((int)norm.magnitude(), int1);
     }
 
+    Vector A;
     Vector b;
     @Given("a ← vector\\({int}, {int}, {int})")
     public void a_vector(Integer int1, Integer int2, Integer int3) {
-        a = new Vector(int1, int2, int3);
+        A = new Vector(int1, int2, int3);
     }
     @Given("b ← vector\\({int}, {int}, {int})")
     public void b_vector(Integer int1, Integer int2, Integer int3) {
@@ -182,78 +185,64 @@ Point p;
     }
     @Then("dot\\(a, b) = {int}")
     public void dot_a_b(Integer int1) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        assertEquals((int)A.dot(b), int1);
     }
 
     @Then("cross\\(a, b) = vector\\({int}, {int}, {int})")
     public void cross_a_b_vector(Integer int1, Integer int2, Integer int3) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        assertEquals(A.cross(b), new Vector(int1, int2, int3));
     }
     @Then("cross\\(b, a) = vector\\({int}, {int}, {int})")
     public void cross_b_a_vector(Integer int1, Integer int2, Integer int3) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        assertEquals(b.cross(A), new Vector(int1, int2, int3));
     }
 
+    Color c;
     @Given("c ← color\\({double}, {double}, {double})")
     public void c_color(Double double1, Double double2, Double double3) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        c = new Color(double1, double2, double3);
     }
     @Then("c.red = {double}")
     public void c_red(Double double1) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        assertEquals(c.red, double1);
     }
     @Then("c.green = {double}")
     public void c_green(Double double1) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        assertEquals(c.green, double1);
     }
     @Then("c.blue = {double}")
     public void c_blue(Double double1) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        assertEquals(c.blue, double1);
     }
 
+    Color c1;
+    Color c2;
     @Given("c1 ← color\\({double}, {double}, {double})")
     public void c1_color(Double double1, Double double2, Double double3) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        c1 = new Color(double1, double2, double3);
     }
     @Given("c2 ← color\\({double}, {double}, {double})")
     public void c2_color(Double double1, Double double2, Double double3) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        c2 = new Color(double1, double2, double3);
     }
-    @Then("c1 {double} c2 = color\\({double}, {double}, {double})")
-    public void c1_c2_color(Double double1, Double double2, Double double3, Double double4) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+    @Then("c1 + c2 = color\\({double}, {double}, {double})")
+    public void c1_add_c2_color(Double double1, Double double2, Double double3) {
+        assertEquals(c1.add(c2), new Color(double1, double2, double3));
+    }
+
+    @Then("c1 - c2 = color\\({double}, {double}, {double})")
+    public void c1_sub_c2_color(Double double1, Double double2, Double double3) {
+        assertEquals(c1.sub(c2), new Color(double1, double2, double3));
     }
 
     @Then("c * {int} = color\\({double}, {double}, {double})")
     public void c_color(Integer int1, Double double1, Double double2, Double double3) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        assertEquals(c.mul(int1), new Color(double1, double2, double3));
     }
 
-    @Given("c1 ← color\\({int}, {double}, {double})")
-    public void c1_color(Integer int1, Double double1, Double double2) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
-    }
-    @Given("c2 ← color\\({double}, {int}, {double})")
-    public void c2_color(Double double1, Integer int1, Double double2) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
-    }
     @Then("c1 * c2 = color\\({double}, {double}, {double})")
-    public void c1_c2_color(Double double1, Double double2, Double double3) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+    public void c1_mul_c2_color(Double double1, Double double2, Double double3) {
+        assertEquals(c1.mul(c2), new Color(double1, double2, double3));
     }
 
     Vector n;
@@ -261,6 +250,7 @@ Point p;
     public void n_vector(Integer int1, Integer int2, Integer int3) {
         n = new Vector(int1, int2, int3);
     }
+    Vector r;
     @When("r ← reflect\\(v, n)")
     public void r_reflect_v_n() {
         // Write code here that turns the phrase above into concrete actions

@@ -44,6 +44,20 @@ public class Tuple {
         return w == 0;
     }
 
+    static double EPSILON = 0.00001;
+
+    boolean eq(double a, double b) {
+        if (Math.abs(a - b) < EPSILON) return true;
+        else return false;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        Tuple tuple = (Tuple) o;
+        return eq(x,tuple.x) && eq(y, tuple.y) && eq(z, tuple.z) && eq(w,tuple.w);
+    }
+
 }
 
 
