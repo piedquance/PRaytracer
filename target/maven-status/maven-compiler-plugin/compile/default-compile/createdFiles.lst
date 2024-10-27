@@ -1,5 +1,8 @@
 praytracer\Tuple.class
 praytracer\praytracer.class
+praytracer\Canvas.class
+praytracer\Point.class
+praytracer\Environment.class
+praytracer\Projectile.class
 praytracer\Vector.class
 praytracer\Color.class
-praytracer\Point.class

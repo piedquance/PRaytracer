@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="praytracer.RunCucumberTest" time="0.602" tests="28" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="praytracer.RunCucumberTest" time="0.364" tests="6" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="D:\Documents\JavaStuff\jdk21\bin"/>
-    <property name="sun.java.command" value="C:\Users\Mykyta\AppData\Local\Temp\surefire10784504016249741839\surefirebooter-20241027104449357_3.jar C:\Users\Mykyta\AppData\Local\Temp\surefire10784504016249741839 2024-10-27T10-44-49_158-jvmRun1 surefire-20241027104449357_1tmp surefire_0-20241027104449357_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Mykyta\AppData\Local\Temp\surefire11875883467637329199\surefirebooter-20241027130705027_3.jar C:\Users\Mykyta\AppData\Local\Temp\surefire11875883467637329199 2024-10-27T13-07-04_785-jvmRun1 surefire-20241027130705027_1tmp surefire_0-20241027130705027_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Mykyta\Desktop\praytracer\target\test-classes;C:\Users\Mykyta\Desktop\praytracer\target\classes;C:\Users\Mykyta\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\Mykyta\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\Mykyta\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\Mykyta\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\Mykyta\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\Mykyta\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\Mykyta\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\Mykyta\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\Mykyta\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\Mykyta\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\Mykyta\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\Mykyta\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\Mykyta\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\Mykyta\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\Mykyta\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\Mykyta\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Mykyta\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Mykyta\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.20.1\cucumber-junit-platform-engine-7.20.1.jar;C:\Users\Mykyta\.m2\repository\org\junit\platform\junit-platform-engine\1.11.2\junit-platform-engine-1.11.2.jar;C:\Users\Mykyta\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Mykyta\.m2\repository\org\junit\platform\junit-platform-commons\1.11.2\junit-platform-commons-1.11.2.jar;C:\Users\Mykyta\.m2\repository\org\junit\platform\junit-platform-suite\1.11.2\junit-platform-suite-1.11.2.jar;C:\Users\Mykyta\.m2\repository\org\junit\platform\junit-platform-suite-api\1.11.2\junit-platform-suite-api-1.11.2.jar;C:\Users\Mykyta\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.11.2\junit-platform-suite-engine-1.11.2.jar;C:\Users\Mykyta\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.11.2\junit-platform-suite-commons-1.11.2.jar;C:\Users\Mykyta\.m2\repository\org\junit\platform\junit-platform-launcher\1.11.2\junit-platform-launcher-1.11.2.jar;C:\Users\Mykyta\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.2\junit-jupiter-5.11.2.jar;C:\Users\Mykyta\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.2\junit-jupiter-api-5.11.2.jar;C:\Users\Mykyta\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.2\junit-jupiter-params-5.11.2.jar;C:\Users\Mykyta\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.2\junit-jupiter-engine-5.11.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Mykyta\AppData\Local\Temp\surefire10784504016249741839\surefirebooter-20241027104449357_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Mykyta\AppData\Local\Temp\surefire11875883467637329199\surefirebooter-20241027130705027_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
@@ -58,224 +58,75 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="Tuples, Vectors, and Points - A tuple with w=1.0 is a point" classname="Tuples, Vectors, and Points" time="0.152">
+  <testcase name="Canvas - Creating a canvas" classname="Canvas" time="0.13">
     <system-out><![CDATA[
-Scenario: A tuple with w=1.0 is a point &amp#27;[90m# praytracer/tuples.feature:3&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma ← tuple(&amp#27;[0m&amp#27;[32m&amp#27;[1m4.3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-4.2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3.1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1.0&amp#27;[0m&amp#27;[32m)&amp#27;[0m  &amp#27;[90m# praytracer.StepDefinitions.a_tuple(java.lang.Double,java.lang.Double,java.lang.Double,java.lang.Double)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma.x = &amp#27;[0m&amp#27;[32m&amp#27;[1m4.3&amp#27;[0m                        &amp#27;[90m# praytracer.StepDefinitions.a_x(java.lang.Double)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma.y = &amp#27;[0m&amp#27;[32m&amp#27;[1m-4.2&amp#27;[0m                        &amp#27;[90m# praytracer.StepDefinitions.a_y(java.lang.Double)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma.z = &amp#27;[0m&amp#27;[32m&amp#27;[1m3.1&amp#27;[0m                         &amp#27;[90m# praytracer.StepDefinitions.a_z(java.lang.Double)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma.w = &amp#27;[0m&amp#27;[32m&amp#27;[1m1.0&amp#27;[0m                         &amp#27;[90m# praytracer.StepDefinitions.a_w(java.lang.Double)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma is a point&amp#27;[0m                      &amp#27;[90m# praytracer.StepDefinitions.a_is_a_point()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma is not a vector&amp#27;[0m                 &amp#27;[90m# praytracer.StepDefinitions.a_is_not_a_vector()&amp#27;[0m
+Scenario: Creating a canvas              &amp#27;[90m# praytracer/canvas.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mc ← canvas(&amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m20&amp#27;[0m&amp#27;[32m)&amp#27;[0m               &amp#27;[90m# praytracer.CanvasDefinitions.c_canvas(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mc.width = &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m                      &amp#27;[90m# praytracer.CanvasDefinitions.c_width(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mc.height = &amp#27;[0m&amp#27;[32m&amp#27;[1m20&amp#27;[0m                      &amp#27;[90m# praytracer.CanvasDefinitions.c_height(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mevery pixel of c is color(&amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m)&amp#27;[0m &amp#27;[90m# praytracer.CanvasDefinitions.every_pixel_of_c_is_color(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Tuples, Vectors, and Points - A tuple with w=0 is a vector" classname="Tuples, Vectors, and Points" time="0.023">
+  <testcase name="Canvas - Writing pixels to a canvas" classname="Canvas" time="0.012">
     <system-out><![CDATA[
-Scenario: A tuple with w=0 is a vector &amp#27;[90m# praytracer/tuples.feature:12&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma ← tuple(&amp#27;[0m&amp#27;[32m&amp#27;[1m4.3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-4.2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3.1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0.0&amp#27;[0m&amp#27;[32m)&amp#27;[0m &amp#27;[90m# praytracer.StepDefinitions.a_tuple(java.lang.Double,java.lang.Double,java.lang.Double,java.lang.Double)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma.x = &amp#27;[0m&amp#27;[32m&amp#27;[1m4.3&amp#27;[0m                       &amp#27;[90m# praytracer.StepDefinitions.a_x(java.lang.Double)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma.y = &amp#27;[0m&amp#27;[32m&amp#27;[1m-4.2&amp#27;[0m                       &amp#27;[90m# praytracer.StepDefinitions.a_y(java.lang.Double)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma.z = &amp#27;[0m&amp#27;[32m&amp#27;[1m3.1&amp#27;[0m                        &amp#27;[90m# praytracer.StepDefinitions.a_z(java.lang.Double)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma.w = &amp#27;[0m&amp#27;[32m&amp#27;[1m0.0&amp#27;[0m                        &amp#27;[90m# praytracer.StepDefinitions.a_w(java.lang.Double)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma is not a point&amp#27;[0m                 &amp#27;[90m# praytracer.StepDefinitions.a_is_not_a_point()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma is a vector&amp#27;[0m                    &amp#27;[90m# praytracer.StepDefinitions.a_is_a_vector()&amp#27;[0m
+Scenario: Writing pixels to a canvas &amp#27;[90m# praytracer/canvas.feature:9&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mc ← canvas(&amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m20&amp#27;[0m&amp#27;[32m)&amp#27;[0m           &amp#27;[90m# praytracer.CanvasDefinitions.c_canvas(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mred ← color(&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m)&amp#27;[0m           &amp#27;[90m# praytracer.CanvasDefinitions.red_color(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mwrite_pixel(c, &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, red)&amp#27;[0m     &amp#27;[90m# praytracer.CanvasDefinitions.write_pixel_c_red(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mpixel_at(c, &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m) = red&amp#27;[0m       &amp#27;[90m# praytracer.CanvasDefinitions.pixel_at_c_red(java.lang.Integer,java.lang.Integer)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Tuples, Vectors, and Points - point() creates tuples with w=1" classname="Tuples, Vectors, and Points" time="0.019">
+  <testcase name="Canvas - Constructing the PPM header" classname="Canvas" time="0.017">
     <system-out><![CDATA[
-Scenario: point() creates tuples with w=1 &amp#27;[90m# praytracer/tuples.feature:21&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mp ← point(&amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m)&amp#27;[0m               &amp#27;[90m# praytracer.StepDefinitions.p_point(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mp = tuple(&amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m)&amp#27;[0m             &amp#27;[90m# praytracer.StepDefinitions.p_tuple(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
+Scenario: Constructing the PPM header &amp#27;[90m# praytracer/canvas.feature:15&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mc ← canvas(&amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m)&amp#27;[0m              &amp#27;[90m# praytracer.CanvasDefinitions.c_canvas(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mppm ← canvas_to_ppm(c)&amp#27;[0m         &amp#27;[90m# praytracer.CanvasDefinitions.ppm_canvas_to_ppm_c()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mlines &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m-&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m of ppm are&amp#27;[0m           &amp#27;[90m# praytracer.CanvasDefinitions.lines_of_ppm_are(java.lang.Integer,java.lang.Integer,java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Tuples, Vectors, and Points - vector() creates tuples with w=0" classname="Tuples, Vectors, and Points" time="0.013">
+  <testcase name="Canvas - Constructing the PPM pixel data" classname="Canvas" time="0.013">
     <system-out><![CDATA[
-Scenario: vector() creates tuples with w=0 &amp#27;[90m# praytracer/tuples.feature:25&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mv ← vector(&amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m)&amp#27;[0m               &amp#27;[90m# praytracer.StepDefinitions.v_vector(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mv = tuple(&amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m)&amp#27;[0m              &amp#27;[90m# praytracer.StepDefinitions.v_tuple(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
+Scenario: Constructing the PPM pixel data &amp#27;[90m# praytracer/canvas.feature:25&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mc ← canvas(&amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m)&amp#27;[0m                  &amp#27;[90m# praytracer.CanvasDefinitions.c_canvas(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mc1 ← color(&amp#27;[0m&amp#27;[32m&amp#27;[1m1.5&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m)&amp#27;[0m               &amp#27;[90m# praytracer.CanvasDefinitions.c1_color(java.lang.Double,java.lang.Double,java.lang.Double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mc2 ← color(&amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0.5&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m)&amp#27;[0m               &amp#27;[90m# praytracer.CanvasDefinitions.c2_color(java.lang.Double,java.lang.Double,java.lang.Double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mc3 ← color(&amp#27;[0m&amp#27;[32m&amp#27;[1m-0.5&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m)&amp#27;[0m              &amp#27;[90m# praytracer.CanvasDefinitions.c3_color(java.lang.Double,java.lang.Double,java.lang.Double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mwrite_pixel(c, &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m, c1)&amp#27;[0m           &amp#27;[90m# praytracer.CanvasDefinitions.write_pixel_c_c1(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mwrite_pixel(c, &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, c2)&amp#27;[0m            &amp#27;[90m# praytracer.CanvasDefinitions.write_pixel_c_c2(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mwrite_pixel(c, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, c3)&amp#27;[0m            &amp#27;[90m# praytracer.CanvasDefinitions.write_pixel_c_c3(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mppm ← canvas_to_ppm(c)&amp#27;[0m              &amp#27;[90m# praytracer.CanvasDefinitions.ppm_canvas_to_ppm_c()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mlines &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m-&amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m of ppm are&amp#27;[0m               &amp#27;[90m# praytracer.CanvasDefinitions.lines_of_ppm_are(java.lang.Integer,java.lang.Integer,java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Tuples, Vectors, and Points - Adding two tuples" classname="Tuples, Vectors, and Points" time="0.015">
+  <testcase name="Canvas - Splitting long lines in PPM files" classname="Canvas" time="0.027">
+    <failure message="expected: &lt;255 204 153 255 204 153 255 204 153 255 204 153 255 204 153 255 204&gt; but was: &lt;255 204 153 255 204 153 255 204 153 255 204 153 255 204 153 255 204 153 255 204 153 255 204 153 255 204 153 255 204 153&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <255 204 153 255 204 153 255 204 153 255 204 153 255 204 153 255 204> but was: <255 204 153 255 204 153 255 204 153 255 204 153 255 204 153 255 204 153 255 204 153 255 204 153 255 204 153 255 204 153>
+	at praytracer.CanvasDefinitions.lines_of_ppm_are(CanvasDefinitions.java:29)
+	at ✽.lines 4-7 of ppm are(classpath:praytracer/canvas.feature:45)
+]]></failure>
     <system-out><![CDATA[
-Scenario: Adding two tuples        &amp#27;[90m# praytracer/tuples.feature:29&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma1 ← tuple(&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m)&amp#27;[0m    &amp#27;[90m# praytracer.StepDefinitions.a1_tuple(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma2 ← tuple(&amp#27;[0m&amp#27;[32m&amp#27;[1m-2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m)&amp#27;[0m      &amp#27;[90m# praytracer.StepDefinitions.a2_tuple(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma1 + a2 = tuple(&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m)&amp#27;[0m &amp#27;[90m# praytracer.StepDefinitions.a1_plus_a2_tuple(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
+Scenario: Splitting long lines in PPM files          &amp#27;[90m# praytracer/canvas.feature:41&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mc ← canvas(&amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m)&amp#27;[0m                            &amp#27;[90m# praytracer.CanvasDefinitions.c_canvas(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mevery pixel of c is set to color(&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0.8&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0.6&amp#27;[0m&amp#27;[32m)&amp#27;[0m &amp#27;[90m# praytracer.CanvasDefinitions.every_pixel_of_c_is_set_to_color(java.lang.Double,java.lang.Double,java.lang.Double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mppm ← canvas_to_ppm(c)&amp#27;[0m                         &amp#27;[90m# praytracer.CanvasDefinitions.ppm_canvas_to_ppm_c()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mlines &amp#27;[0m&amp#27;[31m&amp#27;[1m4&amp#27;[0m&amp#27;[31m-&amp#27;[0m&amp#27;[31m&amp#27;[1m7&amp#27;[0m&amp#27;[31m of ppm are&amp#27;[0m                          &amp#27;[90m# praytracer.CanvasDefinitions.lines_of_ppm_are(java.lang.Integer,java.lang.Integer,java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.opentest4j.AssertionFailedError: expected: <255 204 153 255 204 153 255 204 153 255 204 153 255 204 153 255 204> but was: <255 204 153 255 204 153 255 204 153 255 204 153 255 204 153 255 204 153 255 204 153 255 204 153 255 204 153 255 204 153>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at praytracer.CanvasDefinitions.lines_of_ppm_are(CanvasDefinitions.java:29)
+	at ✽.lines 4-7 of ppm are(classpath:praytracer/canvas.feature:45)
+&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Tuples, Vectors, and Points - Subtracting two points" classname="Tuples, Vectors, and Points" time="0.014">
+  <testcase name="Canvas - PPM files are terminated by a newline character" classname="Canvas" time="0.008">
     <system-out><![CDATA[
-Scenario: Subtracting two points    &amp#27;[90m# praytracer/tuples.feature:34&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mp1 ← point(&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m)&amp#27;[0m         &amp#27;[90m# praytracer.StepDefinitions.p1_point(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mp2 ← point(&amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m7&amp#27;[0m&amp#27;[32m)&amp#27;[0m           &amp#27;[90m# praytracer.StepDefinitions.p2_point(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mp1 - p2 = vector(&amp#27;[0m&amp#27;[32m&amp#27;[1m-2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-6&amp#27;[0m&amp#27;[32m)&amp#27;[0m &amp#27;[90m# praytracer.StepDefinitions.p1_sub_p2_vector(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Tuples, Vectors, and Points - Subtracting a vector from a point" classname="Tuples, Vectors, and Points" time="0.012">
-    <system-out><![CDATA[
-Scenario: Subtracting a vector from a point &amp#27;[90m# praytracer/tuples.feature:39&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mp ← point(&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m)&amp#27;[0m                  &amp#27;[90m# praytracer.StepDefinitions.p_point(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mv ← vector(&amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m7&amp#27;[0m&amp#27;[32m)&amp#27;[0m                   &amp#27;[90m# praytracer.StepDefinitions.v_vector(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mp - v = point(&amp#27;[0m&amp#27;[32m&amp#27;[1m-2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-6&amp#27;[0m&amp#27;[32m)&amp#27;[0m            &amp#27;[90m# praytracer.StepDefinitions.p_sub_v_point(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Tuples, Vectors, and Points - Subtracting two vectors" classname="Tuples, Vectors, and Points" time="0.008">
-    <system-out><![CDATA[
-Scenario: Subtracting two vectors   &amp#27;[90m# praytracer/tuples.feature:44&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mv1 ← vector(&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m)&amp#27;[0m        &amp#27;[90m# praytracer.StepDefinitions.v1_vector(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mv2 ← vector(&amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m7&amp#27;[0m&amp#27;[32m)&amp#27;[0m          &amp#27;[90m# praytracer.StepDefinitions.v2_vector(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mv1 - v2 = vector(&amp#27;[0m&amp#27;[32m&amp#27;[1m-2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-6&amp#27;[0m&amp#27;[32m)&amp#27;[0m &amp#27;[90m# praytracer.StepDefinitions.v1_sub_v2_vector(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Tuples, Vectors, and Points - Subtracting a vector from the zero vector" classname="Tuples, Vectors, and Points" time="0.015">
-    <system-out><![CDATA[
-Scenario: Subtracting a vector from the zero vector &amp#27;[90m# praytracer/tuples.feature:49&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mzero ← vector(&amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m)&amp#27;[0m                      &amp#27;[90m# praytracer.StepDefinitions.zero_vector(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mv ← vector(&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m)&amp#27;[0m                          &amp#27;[90m# praytracer.StepDefinitions.v_vector(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mzero - v = vector(&amp#27;[0m&amp#27;[32m&amp#27;[1m-1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-3&amp#27;[0m&amp#27;[32m)&amp#27;[0m                 &amp#27;[90m# praytracer.StepDefinitions.zero_sub_v_vector(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Tuples, Vectors, and Points - Negating a tuple" classname="Tuples, Vectors, and Points" time="0.013">
-    <system-out><![CDATA[
-Scenario: Negating a tuple      &amp#27;[90m# praytracer/tuples.feature:54&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma ← tuple(&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-4&amp#27;[0m&amp#27;[32m)&amp#27;[0m &amp#27;[90m# praytracer.StepDefinitions.a_tuple(java.lang.Double,java.lang.Double,java.lang.Double,java.lang.Double)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32m-a = tuple(&amp#27;[0m&amp#27;[32m&amp#27;[1m-1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m)&amp#27;[0m &amp#27;[90m# praytracer.StepDefinitions.a_tuple(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Tuples, Vectors, and Points - Multiplying a tuple by a scalar" classname="Tuples, Vectors, and Points" time="0.014">
-    <system-out><![CDATA[
-Scenario: Multiplying a tuple by a scalar  &amp#27;[90m# praytracer/tuples.feature:58&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma ← tuple(&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-4&amp#27;[0m&amp#27;[32m)&amp#27;[0m            &amp#27;[90m# praytracer.StepDefinitions.a_tuple(java.lang.Double,java.lang.Double,java.lang.Double,java.lang.Double)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma * &amp#27;[0m&amp#27;[32m&amp#27;[1m3.5&amp#27;[0m&amp#27;[32m = tuple(&amp#27;[0m&amp#27;[32m&amp#27;[1m3.5&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-7&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m10.5&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-14&amp#27;[0m&amp#27;[32m)&amp#27;[0m &amp#27;[90m# praytracer.StepDefinitions.a_mul_tuple(java.lang.Double,java.lang.Double,java.lang.Double,java.lang.Double,java.lang.Double)&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Tuples, Vectors, and Points - Multiplying a tuple by a fraction" classname="Tuples, Vectors, and Points" time="0.007">
-    <system-out><![CDATA[
-Scenario: Multiplying a tuple by a fraction &amp#27;[90m# praytracer/tuples.feature:62&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma ← tuple(&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-4&amp#27;[0m&amp#27;[32m)&amp#27;[0m             &amp#27;[90m# praytracer.StepDefinitions.a_tuple(java.lang.Double,java.lang.Double,java.lang.Double,java.lang.Double)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma * &amp#27;[0m&amp#27;[32m&amp#27;[1m0.5&amp#27;[0m&amp#27;[32m = tuple(&amp#27;[0m&amp#27;[32m&amp#27;[1m0.5&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1.5&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-2&amp#27;[0m&amp#27;[32m)&amp#27;[0m    &amp#27;[90m# praytracer.StepDefinitions.a_mul_tuple(java.lang.Double,java.lang.Double,java.lang.Double,java.lang.Double,java.lang.Double)&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Tuples, Vectors, and Points - Dividing a tuple by a scalar" classname="Tuples, Vectors, and Points" time="0.008">
-    <system-out><![CDATA[
-Scenario: Dividing a tuple by a scalar &amp#27;[90m# praytracer/tuples.feature:66&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma ← tuple(&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-4&amp#27;[0m&amp#27;[32m)&amp#27;[0m        &amp#27;[90m# praytracer.StepDefinitions.a_tuple(java.lang.Double,java.lang.Double,java.lang.Double,java.lang.Double)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma / &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m = tuple(&amp#27;[0m&amp#27;[32m&amp#27;[1m0.5&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1.5&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-2&amp#27;[0m&amp#27;[32m)&amp#27;[0m &amp#27;[90m# praytracer.StepDefinitions.a_div_tuple(java.lang.Double,java.lang.Double,java.lang.Double,java.lang.Double,java.lang.Double)&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Tuples, Vectors, and Points - Computing the magnitude of vector(1, 0, 0)" classname="Tuples, Vectors, and Points" time="0.015">
-    <system-out><![CDATA[
-Scenario: Computing the magnitude of vector(1, 0, 0) &amp#27;[90m# praytracer/tuples.feature:70&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mv ← vector(&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m)&amp#27;[0m                          &amp#27;[90m# praytracer.StepDefinitions.v_vector(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mmagnitude(v) = &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m                              &amp#27;[90m# praytracer.StepDefinitions.magnitude_v(java.lang.Integer)&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Tuples, Vectors, and Points - Computing the magnitude of vector(0, 1, 0)" classname="Tuples, Vectors, and Points" time="0.007">
-    <system-out><![CDATA[
-Scenario: Computing the magnitude of vector(0, 1, 0) &amp#27;[90m# praytracer/tuples.feature:74&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mv ← vector(&amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m)&amp#27;[0m                          &amp#27;[90m# praytracer.StepDefinitions.v_vector(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mmagnitude(v) = &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m                              &amp#27;[90m# praytracer.StepDefinitions.magnitude_v(java.lang.Integer)&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Tuples, Vectors, and Points - Computing the magnitude of vector(0, 0, 1)" classname="Tuples, Vectors, and Points" time="0.007">
-    <system-out><![CDATA[
-Scenario: Computing the magnitude of vector(0, 0, 1) &amp#27;[90m# praytracer/tuples.feature:78&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mv ← vector(&amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m)&amp#27;[0m                          &amp#27;[90m# praytracer.StepDefinitions.v_vector(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mmagnitude(v) = &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m                              &amp#27;[90m# praytracer.StepDefinitions.magnitude_v(java.lang.Integer)&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Tuples, Vectors, and Points - Computing the magnitude of vector(1, 2, 3)" classname="Tuples, Vectors, and Points" time="0.005">
-    <system-out><![CDATA[
-Scenario: Computing the magnitude of vector(1, 2, 3) &amp#27;[90m# praytracer/tuples.feature:82&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mv ← vector(&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m)&amp#27;[0m                          &amp#27;[90m# praytracer.StepDefinitions.v_vector(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mmagnitude(v) = √&amp#27;[0m&amp#27;[32m&amp#27;[1m14&amp#27;[0m                            &amp#27;[90m# praytracer.StepDefinitions.magnitude_sqrt_v(java.lang.Integer)&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Tuples, Vectors, and Points - Computing the magnitude of vector(-1, -2, -3)" classname="Tuples, Vectors, and Points" time="0.006">
-    <system-out><![CDATA[
-Scenario: Computing the magnitude of vector(-1, -2, -3) &amp#27;[90m# praytracer/tuples.feature:86&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mv ← vector(&amp#27;[0m&amp#27;[32m&amp#27;[1m-1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-3&amp#27;[0m&amp#27;[32m)&amp#27;[0m                          &amp#27;[90m# praytracer.StepDefinitions.v_vector(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mmagnitude(v) = √&amp#27;[0m&amp#27;[32m&amp#27;[1m14&amp#27;[0m                               &amp#27;[90m# praytracer.StepDefinitions.magnitude_sqrt_v(java.lang.Integer)&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Tuples, Vectors, and Points - Normalizing vector(4, 0, 0) gives (1, 0, 0)" classname="Tuples, Vectors, and Points" time="0.006">
-    <system-out><![CDATA[
-Scenario: Normalizing vector(4, 0, 0) gives (1, 0, 0) &amp#27;[90m# praytracer/tuples.feature:90&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mv ← vector(&amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m)&amp#27;[0m                           &amp#27;[90m# praytracer.StepDefinitions.v_vector(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mnormalize(v) = vector(&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m)&amp#27;[0m                 &amp#27;[90m# praytracer.StepDefinitions.normalize_v_vector(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Tuples, Vectors, and Points - Normalizing vector(1, 2, 3)" classname="Tuples, Vectors, and Points" time="0.006">
-    <system-out><![CDATA[
-Scenario: Normalizing vector(1, 2, 3)                                 &amp#27;[90m# praytracer/tuples.feature:94&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mv ← vector(&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m)&amp#27;[0m                                           &amp#27;[90m# praytracer.StepDefinitions.v_vector(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mnormalize(v) = approximately vector(&amp#27;[0m&amp#27;[32m&amp#27;[1m0.26726&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0.53452&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0.80178&amp#27;[0m&amp#27;[32m)&amp#27;[0m &amp#27;[90m# praytracer.StepDefinitions.normalize_v_approximately_vector(java.lang.Double,java.lang.Double,java.lang.Double)&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Tuples, Vectors, and Points - The magnitude of a normalized vector" classname="Tuples, Vectors, and Points" time="0.01">
-    <system-out><![CDATA[
-Scenario: The magnitude of a normalized vector &amp#27;[90m# praytracer/tuples.feature:99&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mv ← vector(&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m)&amp#27;[0m                    &amp#27;[90m# praytracer.StepDefinitions.v_vector(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mnorm ← normalize(v)&amp#27;[0m                     &amp#27;[90m# praytracer.StepDefinitions.norm_normalize_v()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mmagnitude(norm) = &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m                     &amp#27;[90m# praytracer.StepDefinitions.magnitude_norm(java.lang.Integer)&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Tuples, Vectors, and Points - The dot product of two tuples" classname="Tuples, Vectors, and Points" time="0.007">
-    <system-out><![CDATA[
-Scenario: The dot product of two tuples &amp#27;[90m# praytracer/tuples.feature:104&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma ← vector(&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m)&amp#27;[0m             &amp#27;[90m# praytracer.StepDefinitions.a_vector(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mb ← vector(&amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m)&amp#27;[0m               &amp#27;[90m# praytracer.StepDefinitions.b_vector(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdot(a, b) = &amp#27;[0m&amp#27;[32m&amp#27;[1m20&amp#27;[0m                   &amp#27;[90m# praytracer.StepDefinitions.dot_a_b(java.lang.Integer)&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Tuples, Vectors, and Points - The cross product of two vectors" classname="Tuples, Vectors, and Points" time="0.007">
-    <system-out><![CDATA[
-Scenario: The cross product of two vectors &amp#27;[90m# praytracer/tuples.feature:109&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma ← vector(&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m)&amp#27;[0m                &amp#27;[90m# praytracer.StepDefinitions.a_vector(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mb ← vector(&amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m)&amp#27;[0m                  &amp#27;[90m# praytracer.StepDefinitions.b_vector(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mcross(a, b) = vector(&amp#27;[0m&amp#27;[32m&amp#27;[1m-1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-1&amp#27;[0m&amp#27;[32m)&amp#27;[0m     &amp#27;[90m# praytracer.StepDefinitions.cross_a_b_vector(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mcross(b, a) = vector(&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m-2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m)&amp#27;[0m       &amp#27;[90m# praytracer.StepDefinitions.cross_b_a_vector(java.lang.Integer,java.lang.Integer,java.lang.Integer)&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Tuples, Vectors, and Points - Colors are (red, green, blue) tuples" classname="Tuples, Vectors, and Points" time="0.009">
-    <system-out><![CDATA[
-Scenario: Colors are (red, green, blue) tuples &amp#27;[90m# praytracer/tuples.feature:115&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mc ← color(&amp#27;[0m&amp#27;[32m&amp#27;[1m-0.5&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0.4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1.7&amp#27;[0m&amp#27;[32m)&amp#27;[0m              &amp#27;[90m# praytracer.StepDefinitions.c_color(java.lang.Double,java.lang.Double,java.lang.Double)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mc.red = &amp#27;[0m&amp#27;[32m&amp#27;[1m-0.5&amp#27;[0m                            &amp#27;[90m# praytracer.StepDefinitions.c_red(java.lang.Double)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mc.green = &amp#27;[0m&amp#27;[32m&amp#27;[1m0.4&amp#27;[0m                            &amp#27;[90m# praytracer.StepDefinitions.c_green(java.lang.Double)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mc.blue = &amp#27;[0m&amp#27;[32m&amp#27;[1m1.7&amp#27;[0m                             &amp#27;[90m# praytracer.StepDefinitions.c_blue(java.lang.Double)&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Tuples, Vectors, and Points - Adding colors" classname="Tuples, Vectors, and Points" time="0.01">
-    <system-out><![CDATA[
-Scenario: Adding colors               &amp#27;[90m# praytracer/tuples.feature:121&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mc1 ← color(&amp#27;[0m&amp#27;[32m&amp#27;[1m0.9&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0.6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0.75&amp#27;[0m&amp#27;[32m)&amp#27;[0m    &amp#27;[90m# praytracer.StepDefinitions.c1_color(java.lang.Double,java.lang.Double,java.lang.Double)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mc2 ← color(&amp#27;[0m&amp#27;[32m&amp#27;[1m0.7&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0.1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0.25&amp#27;[0m&amp#27;[32m)&amp#27;[0m      &amp#27;[90m# praytracer.StepDefinitions.c2_color(java.lang.Double,java.lang.Double,java.lang.Double)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mc1 + c2 = color(&amp#27;[0m&amp#27;[32m&amp#27;[1m1.6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0.7&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1.0&amp#27;[0m&amp#27;[32m)&amp#27;[0m &amp#27;[90m# praytracer.StepDefinitions.c1_add_c2_color(java.lang.Double,java.lang.Double,java.lang.Double)&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Tuples, Vectors, and Points - Subtracting colors" classname="Tuples, Vectors, and Points" time="0.01">
-    <system-out><![CDATA[
-Scenario: Subtracting colors          &amp#27;[90m# praytracer/tuples.feature:126&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mc1 ← color(&amp#27;[0m&amp#27;[32m&amp#27;[1m0.9&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0.6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0.75&amp#27;[0m&amp#27;[32m)&amp#27;[0m    &amp#27;[90m# praytracer.StepDefinitions.c1_color(java.lang.Double,java.lang.Double,java.lang.Double)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mc2 ← color(&amp#27;[0m&amp#27;[32m&amp#27;[1m0.7&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0.1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0.25&amp#27;[0m&amp#27;[32m)&amp#27;[0m      &amp#27;[90m# praytracer.StepDefinitions.c2_color(java.lang.Double,java.lang.Double,java.lang.Double)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mc1 - c2 = color(&amp#27;[0m&amp#27;[32m&amp#27;[1m0.2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0.5&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0.5&amp#27;[0m&amp#27;[32m)&amp#27;[0m &amp#27;[90m# praytracer.StepDefinitions.c1_sub_c2_color(java.lang.Double,java.lang.Double,java.lang.Double)&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Tuples, Vectors, and Points - Multiplying a color by a scalar" classname="Tuples, Vectors, and Points" time="0.008">
-    <system-out><![CDATA[
-Scenario: Multiplying a color by a scalar &amp#27;[90m# praytracer/tuples.feature:131&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mc ← color(&amp#27;[0m&amp#27;[32m&amp#27;[1m0.2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0.3&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0.4&amp#27;[0m&amp#27;[32m)&amp#27;[0m          &amp#27;[90m# praytracer.StepDefinitions.c_color(java.lang.Double,java.lang.Double,java.lang.Double)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mc * &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m = color(&amp#27;[0m&amp#27;[32m&amp#27;[1m0.4&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0.6&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0.8&amp#27;[0m&amp#27;[32m)&amp#27;[0m       &amp#27;[90m# praytracer.StepDefinitions.c_color(java.lang.Integer,java.lang.Double,java.lang.Double,java.lang.Double)&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Tuples, Vectors, and Points - Multiplying colors" classname="Tuples, Vectors, and Points" time="0.005">
-    <system-out><![CDATA[
-Scenario: Multiplying colors           &amp#27;[90m# praytracer/tuples.feature:135&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mc1 ← color(&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0.2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0.4&amp#27;[0m&amp#27;[32m)&amp#27;[0m        &amp#27;[90m# praytracer.StepDefinitions.c1_color(java.lang.Double,java.lang.Double,java.lang.Double)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mc2 ← color(&amp#27;[0m&amp#27;[32m&amp#27;[1m0.9&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0.1&amp#27;[0m&amp#27;[32m)&amp#27;[0m          &amp#27;[90m# praytracer.StepDefinitions.c2_color(java.lang.Double,java.lang.Double,java.lang.Double)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mc1 * c2 = color(&amp#27;[0m&amp#27;[32m&amp#27;[1m0.9&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0.2&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0.04&amp#27;[0m&amp#27;[32m)&amp#27;[0m &amp#27;[90m# praytracer.StepDefinitions.c1_mul_c2_color(java.lang.Double,java.lang.Double,java.lang.Double)&amp#27;[0m
+Scenario: PPM files are terminated by a newline character &amp#27;[90m# praytracer/canvas.feature:53&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mc ← canvas(&amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m)&amp#27;[0m                                  &amp#27;[90m# praytracer.CanvasDefinitions.c_canvas(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mppm ← canvas_to_ppm(c)&amp#27;[0m                             &amp#27;[90m# praytracer.CanvasDefinitions.ppm_canvas_to_ppm_c()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mppm ends with a newline character&amp#27;[0m                  &amp#27;[90m# praytracer.CanvasDefinitions.ppm_ends_with_a_newline_character()&amp#27;[0m
 ]]></system-out>
   </testcase>
 </testsuite>
