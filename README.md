@@ -1,3 +1,1 @@
-PRaytracer:
-The Pragmatic Raytracer
-The Pray-it-works Raytracer
+PRaytracer: The Pragmatic Raytracer, or Pray-it-works Raytracer
