@@ -1,0 +1,4 @@
+--patch-module
+net.piedqualt.praytracer=_
+--add-reads
+net.piedqualt.praytracer=ALL-UNNAMED
