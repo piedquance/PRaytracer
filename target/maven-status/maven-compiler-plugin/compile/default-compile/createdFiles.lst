@@ -1,5 +1,4 @@
-net\piedqualt\praytracer\HelloController.class
-net\piedqualt\praytracer\CommandLineMain.class
-module-info.class
-net\piedqualt\praytracer\HelloApplication.class
-net\piedqualt\praytracer\Tuple.class
+praytracer\Tuple.class
+praytracer\praytracer.class
+praytracer\Vector.class
+praytracer\Point.class
