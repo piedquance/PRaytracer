@@ -58,6 +58,12 @@ public class Tuple {
         return eq(x,tuple.x) && eq(y, tuple.y) && eq(z, tuple.z) && eq(w,tuple.w);
     }
 
+
+    @Override
+    public String toString() {
+        return "(" + x + ", " + y + ", " + z + ", " + w + ")";
+    }
+
 }
 
 
